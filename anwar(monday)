@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+</head>
+<body>
+    <script>
+        //let  b = "hari"
+        //let a = " Krishna"
+        {
+           //document.write(a+b) 
+            //console.log("hi + a+b")
+            //console.log("hi +$(a + b)")
+            //console.log(`hi +${a+b}`)
+            //document.write(a+b )
+            let = x = null;
+            document.write(x,"<br>")
+            document.write(typeof(x))
+            
+        }
+        
+        
+ 
+    </script>
+   
+</body>
+</html>
+
+data type 
+*Dynamic data type
+two types:
+*primitive data type
+* non primitive data type
+To check the data type-typeof
+
+1)Primitive data type:predifined ;we can store single values
+*Numbers : integer ,floats
+*String : Steam of characters enclosed in quotes
+***Single,double,backlist quotes;
+Boolan : ture 
+
+
+String concatantion
+a= sai 
+b= kumar
+
+
+
+
+react student = sai kumar
+
+#tecnical
+#condition componets
+#conditiinal statement
+#code chef
+#hackerranked
+#leetcode
