@@ -1,0 +1,65 @@
+et t = 40
+        let r=(t>40) ? "Ac - off" : "Ac -on" 
+        document.write(r , "<br>")
+       let a= 105
+       let b='105'
+       //b-=30
+       document.write(a!=b , "<br>")
+       document.write(a>b && b>11,"<br>")
+       //a+=30
+        document.write(a>b || b>11,"<br>")
+        document.write(!(false),"<br>");
+        document.write(!a>b);
+        
+
+output:
+ Ac -on
+false
+false
+true
+true
+false
+
+
+
+
+Conditional statements:
+--to make the set of instructions(block of code)(conditional block) execute only when the given condition is true
+--used to decide whether the code has to be executed or skip based on the given condition
+--- line – line (sequence)
+Block of code: set of instructions:
+Condition: An expression that evaluates an result(true or false)
+EX: console.log(5>6)
+--Methods:
+If
+If-else
+else if
+switch
+ternary operator
+if: only one possible condition:
+--if the condition is true it will execute other wise it skip
+Syntax:
+If(condition){
+--block of code
+}
+example
+  let a = 4
+       let b = 5
+       if (a<b){
+        document.write("hello anwar","<br>")
+       }
+       document.write("brillant shaik")
+
+
+
+example
+ let age=prompt("Enter Your age?")
+        let name=prompt("enter your name? ")
+        if(age<18){
+            alert(name+"you are too young to marry")
+        }else if(age>=35){
+          alert(name+"you are too young to marry")
+        }else{
+            alert(name+"perfect age to marry")
+        }
+        alert("welcome to my world")
