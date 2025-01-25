@@ -1,0 +1,100 @@
+ function greet(){
+            console.log("hi venkat")
+        }
+        greet()
+        console.log("hi ravi")
+        greet () 
+        console.log("hi ganesh")
+        greet()
+        }
+output:
+hi venkat
+Untitled-1.html:38 hi ravi
+Untitled-1.html:35 hi venkat
+Untitled-1.html:40 hi ganesh
+Untitled-1.html:35 hi venka
+
+
+function g(name){
+            console.log("hello"+name)
+        }
+        let name=prompt("enter your name")
+        g(name)
+
+output:
+hellom anwar
+
+let x =(x,y,z)=>{
+    console.log(x+y+z)
+}
+    x(20,30,40)
+    x(40,50,30)
+
+output:
+90
+120
+
+let c=()=>{
+    //    console.log("hi venkat")
+   // }
+    //c()
+
+output:
+hi Venkat
+
+
+call back function
+
+#
+
+
+
+ passing a named function as callback
+Function greet(name ,callback){
+console.log("Hello"+name);
+callback();
+}
+function goodbye(){
+console.log("Goodbye")
+}
+greet("Kishor",goodbye) 
+
+
+<script>
+        function greeting(name,callback){
+            document.write("hi anwar!!!"+name);
+        callback();
+        }
+        function saygoodbye(){
+        document.write("Good bye!!!");
+        }
+        greeting("you are good boy" , saygoodbye)
+
+
+    </script>       
+
+we didn't pass a named function like goodbye instand of that we define an anonymous function directly
+instant of that we  define an anonymous function directly 
+
+ function greet(name,callback){
+                console.log("hello"+name);
+                callback();
+                }
+                greet("awar",function(){
+                console.log("a PYthon Developer");
+
+
+EX 4:
+Asynchronous callback with settimeoutl
+code:
+function fetchData(callback){
+console.log("data fetched...")
+}setTimeout(function(){
+console.log("data fetched...");
+callback()
+}2000);
+function processData(){
+console.log("processing the fetched data..")
+}
+fetchData(processData);
+}
